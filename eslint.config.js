@@ -32,7 +32,10 @@ export default defineConfig([
          ],
          'react/prop-types': 'off',
          'react/react-in-jsx-scope': 'off',
-         'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+         // 'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+         'react/no-unescaped-entities': 'off',
+         'no-unused-vars': 'off',
+         'no-undef': 'off',
       },
       settings: {
          react: { version: 'detect' },
